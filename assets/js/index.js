@@ -36,7 +36,6 @@ function getUserInfo(){
             // 调用 renderAvater 渲染用户的头像
             renderAvater(res.data)
         } ,
-
         /* //  无论成功还是失败，最后都会调用 complete 回调函数
         complete:function(res){
             //  console.log('执行了complete函数！')
